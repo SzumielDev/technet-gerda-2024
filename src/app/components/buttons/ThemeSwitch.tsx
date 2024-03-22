@@ -15,10 +15,10 @@ export const ThemeSwitch = () => {
     )
 
     if (theme === "dark") return (
-        <Moon color="white" onClick={() => setTheme('light')} />
+        <Moon className="cursor-pointer" color="white" onClick={() => setTheme('light')} />
     )
 
     if (theme === "light") return (
-        <Sun color="black" onClick={() => setTheme('dark')} />
+        <Sun className="cursor-pointer" color="black" onClick={() => setTheme('dark')} />
     )
 }
