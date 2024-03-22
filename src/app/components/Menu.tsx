@@ -1,4 +1,5 @@
-import { Flex } from "@/app/components/Flex"
+import { Flex } from "@/app/components/layout/Flex"
+import { ThemeSwitch } from "@/app/components/buttons/ThemeSwitch"
 
 export const Menu = () => {
     return (
@@ -6,6 +7,7 @@ export const Menu = () => {
             <button>PROMOCJE</button>
             <button>WSPÓŁPRACA</button>
             <button>KONTAKT</button>
+            <ThemeSwitch />
         </Flex>
     )
 }
