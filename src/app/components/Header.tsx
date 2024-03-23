@@ -14,7 +14,7 @@ export const Header = () => {
                     alt="header image"
                 />
             </div>
-            <h1 className="text-4xl">JESTEŚMY DOSTĘPNI DLA CIEBIE</h1>
+            <h1 className="text-4xl text-white font-bold">JESTEŚMY DOSTĘPNI DLA CIEBIE</h1>
         </Flex>
     )
 }
