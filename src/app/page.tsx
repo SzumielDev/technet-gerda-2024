@@ -2,6 +2,7 @@ import { Section } from "@/app/components/layout/Section";
 import { Menu } from "@/app/components/Menu";
 import { Flex } from "@/app/components/layout/Flex";
 import { Header } from "@/app/components/Header";
+import { AboutUs } from "@/app/components/AboutUs";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         </div>
       </div>
       <Header />
+      <AboutUs />
     </Section>
   );
 }
