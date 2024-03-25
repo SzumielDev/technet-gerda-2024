@@ -15,7 +15,7 @@ export default function Home() {
         </div>
       </div>
       <Header />
-      <AboutUs />
+      {/* <AboutUs /> */}
     </Section>
   );
 }
