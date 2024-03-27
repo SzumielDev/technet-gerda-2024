@@ -7,7 +7,7 @@ import { AboutUs } from "@/app/components/AboutUs";
 export default function Home() {
   return (
     <Section>
-      <div className="relative">
+      <div className="relative z-10">
         <div className="fixed top-0 left-0 right-0">
           <Flex className="justify-center">
             <Menu />
@@ -15,7 +15,7 @@ export default function Home() {
         </div>
       </div>
       <Header />
-      {/* <AboutUs /> */}
+      <AboutUs />
     </Section>
   );
 }

@@ -12,7 +12,7 @@ export const Header = () => {
           <Flex className="flex-col gap-y-4">
             <Flex className="gap-x-4">
               <p className="text-4xl text-white">TECHNET GERDA</p>
-              <button className="border px-4 py-2 rounded">ZOBACZ OFERTE</button>
+              <button className="border px-4 py-2 rounded text-white">ZOBACZ OFERTE</button>
             </Flex>
             <p className="text-2xl text-white">Najlepsze rozwiązania dla Twojego domu</p>
           </Flex>
